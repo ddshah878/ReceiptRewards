@@ -1,4 +1,4 @@
-package com.dhrumil.ReciptRewards.Models.Response;
+package com.dhrumil.ReceiptRewards.Models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Receipt {
-    String id;
+public class Items {
+    String shortDescription;
+    Double price;
 }

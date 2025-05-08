@@ -1,6 +1,6 @@
-package com.dhrumil.ReciptRewards.Models.Request;
+package com.dhrumil.ReceiptRewards.Models.Request;
 
-import com.dhrumil.ReciptRewards.Models.Items;
+import com.dhrumil.ReceiptRewards.Models.Items;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

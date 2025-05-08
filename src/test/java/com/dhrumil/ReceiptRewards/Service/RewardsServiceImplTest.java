@@ -1,9 +1,9 @@
-package com.dhrumil.ReciptRewards.Service;
+package com.dhrumil.ReceiptRewards.Service;
 
 import org.junit.jupiter.api.Test;
 
-import static com.dhrumil.ReciptRewards.TestUtil.TestUtil.createTestReceiptRequestOne;
-import static com.dhrumil.ReciptRewards.TestUtil.TestUtil.createTestReceiptRequestTwo;
+import static com.dhrumil.ReceiptRewards.TestUtil.TestUtil.createTestReceiptRequestOne;
+import static com.dhrumil.ReceiptRewards.TestUtil.TestUtil.createTestReceiptRequestTwo;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

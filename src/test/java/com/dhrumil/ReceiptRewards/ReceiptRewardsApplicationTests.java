@@ -1,10 +1,10 @@
-package com.dhrumil.ReciptRewards;
+package com.dhrumil.ReceiptRewards;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReciptRewardsApplicationTests {
+class ReceiptRewardsApplicationTests {
 
 	@Test
 	void contextLoads() {

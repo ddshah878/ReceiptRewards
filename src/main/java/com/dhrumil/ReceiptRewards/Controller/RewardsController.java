@@ -1,9 +1,9 @@
-package com.dhrumil.ReciptRewards.Controller;
+package com.dhrumil.ReceiptRewards.Controller;
 
-import com.dhrumil.ReciptRewards.Models.Request.ReceiptRequest;
-import com.dhrumil.ReciptRewards.Models.Response.Points;
-import com.dhrumil.ReciptRewards.Models.Response.Receipt;
-import com.dhrumil.ReciptRewards.Service.RewardsService;
+import com.dhrumil.ReceiptRewards.Models.Request.ReceiptRequest;
+import com.dhrumil.ReceiptRewards.Models.Response.Points;
+import com.dhrumil.ReceiptRewards.Models.Response.Receipt;
+import com.dhrumil.ReceiptRewards.Service.RewardsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,13 +20,20 @@ public class RewardsController {
     }
 
     @PostMapping("/receipts/process")
-    public  ResponseEntity<Receipt> processReceipt(@RequestBody ReceiptRequest receipt) {
+    public ResponseEntity<Receipt> processReceipt(@RequestBody ReceiptRequest receipt) {
         try {
+            // Input validation is handled in the service layer
             String receiptId = rewardsService.saveReceipt(receipt);
             return ResponseEntity.ok(Receipt.builder()
-                            .id(receiptId)
+                    .id(receiptId)
                     .build());
+        } catch (IllegalArgumentException e) {
+            // Return specific error for validation failures
+            return ResponseEntity
+                    .badRequest()
+                    .build();
         } catch (Exception e) {
+            // Handle other exceptions
             return ResponseEntity
                     .badRequest()
                     .build();

@@ -1,6 +1,6 @@
-package com.dhrumil.ReciptRewards.Service;
+package com.dhrumil.ReceiptRewards.Service;
 
-import com.dhrumil.ReciptRewards.Models.Request.ReceiptRequest;
+import com.dhrumil.ReceiptRewards.Models.Request.ReceiptRequest;
 
 public interface RewardsService {
     public String saveReceipt(ReceiptRequest receiptRequest);

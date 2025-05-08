@@ -1,4 +1,4 @@
-package com.dhrumil.ReciptRewards.Models.Response;
+package com.dhrumil.ReceiptRewards.Models.Response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

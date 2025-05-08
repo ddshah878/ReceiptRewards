@@ -1,10 +1,10 @@
-package com.dhrumil.ReciptRewards.Controller;
+package com.dhrumil.ReceiptRewards.Controller;
 
-import com.dhrumil.ReciptRewards.Models.Request.ReceiptRequest;
-import com.dhrumil.ReciptRewards.Models.Response.Points;
-import com.dhrumil.ReciptRewards.Models.Response.Receipt;
-import com.dhrumil.ReciptRewards.Service.RewardsService;
-import com.dhrumil.ReciptRewards.TestUtil.TestUtil;
+import com.dhrumil.ReceiptRewards.Models.Request.ReceiptRequest;
+import com.dhrumil.ReceiptRewards.Models.Response.Points;
+import com.dhrumil.ReceiptRewards.Models.Response.Receipt;
+import com.dhrumil.ReceiptRewards.Service.RewardsService;
+import com.dhrumil.ReceiptRewards.TestUtil.TestUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

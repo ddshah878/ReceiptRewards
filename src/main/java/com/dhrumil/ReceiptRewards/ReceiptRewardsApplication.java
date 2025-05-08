@@ -1,13 +1,13 @@
-package com.dhrumil.ReciptRewards;
+package com.dhrumil.ReceiptRewards;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReciptRewardsApplication {
+public class ReceiptRewardsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReciptRewardsApplication.class, args);
+		SpringApplication.run(ReceiptRewardsApplication.class, args);
 	}
 
 }

@@ -1,7 +1,7 @@
-package com.dhrumil.ReciptRewards.TestUtil;
+package com.dhrumil.ReceiptRewards.TestUtil;
 
-import com.dhrumil.ReciptRewards.Models.Items;
-import com.dhrumil.ReciptRewards.Models.Request.ReceiptRequest;
+import com.dhrumil.ReceiptRewards.Models.Items;
+import com.dhrumil.ReceiptRewards.Models.Request.ReceiptRequest;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
